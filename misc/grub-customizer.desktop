@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Grub Customizer
+Comment=Customize the bootloader (GRUB2 or BURG)
+Name[ko]=부팅 화면 설정
+Comment[ko]=부트 로더 설정 (GRUB2 or BURG)
+Exec=grub-customizer
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+StartupNotify=false
+Categories=System;Settings;
+Icon=grub-customizer
+X-Ubuntu-Gettext-Domain=grub-customizer
+X-KDE-SubstituteUID=true
+Keywords=GRUB;GRUB2;BURG;configuration;settings;menu;
+Keywords[ko]=부팅;부트로더;그럽;grub;GRUB;GRUB2;BURG;configuration;settings;menu;

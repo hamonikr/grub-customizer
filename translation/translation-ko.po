@@ -1,0 +1,868 @@
+# Korean translation for grub-customizer
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the grub-customizer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: grub-customizer\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-03-22 22:43+0100\n"
+"PO-Revision-Date: 2024-07-28 02:46+0900\n"
+"Last-Translator: Kevin Kim <chaeya@gmail.com>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2018-10-13 11:16+0000\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: src/View/Gtk/Main.hpp:442
+msgid "Grub Customizer"
+msgstr "Grub Customizer - 부팅 화면 설정"
+
+#: src/Controller/MainController.hpp:629
+msgid "Name the Entry"
+msgstr "항목 이름 지정"
+
+#: src/Controller/MainController.hpp:715
+msgid "cannot move this entry"
+msgstr "이 항목을 이동할 수 없습니다"
+
+#: src/Controller/MainController.hpp:834
+msgid "Configuration has been saved"
+msgstr "설정이 저장되었습니다"
+
+#: src/Controller/MainController.hpp:839
+msgid "updating configuration"
+msgstr "설정을 업데이트하는 중입니다"
+
+#: src/View/Gtk/About.hpp:53
+msgid "Grub Customizer is a graphical interface to configure the grub2/burg settings"
+msgstr "Grub 커스터마이저는 grub2/burg 설정을 구성하는 그래픽 인터페이스 도구입니다"
+
+#: src/View/Gtk/Element/List.hpp:135 src/View/Gtk/Main.hpp:897
+msgid "script"
+msgstr "스크립트"
+
+#: src/View/Gtk/Element/List.hpp:137 src/View/Gtk/Main.hpp:888
+msgid "submenu"
+msgstr "하위 메뉴"
+
+#: src/View/Gtk/Element/List.hpp:139 src/View/Gtk/Main.hpp:891
+msgid "placeholder"
+msgstr "플레이스홀더"
+
+#: src/View/Gtk/Element/List.hpp:141 src/View/Gtk/Main.hpp:886
+msgid "menuentry"
+msgstr "메뉴 항목"
+
+#: src/View/Gtk/Element/List.hpp:144
+msgid "script: %1"
+msgstr "스크립트: %1"
+
+#: src/View/Gtk/Element/List.hpp:148
+msgid "default name: %1"
+msgstr "기본 이름: %1"
+
+#: src/View/Gtk/Element/List.hpp:152
+msgid "partition: %1"
+msgstr "파티션: %1"
+
+#: src/View/Gtk/Element/List.hpp:156
+msgid "ISO-Image: "
+msgstr "ISO 이미지:"
+
+#: src/View/Gtk/Element/List.hpp:160
+msgid "Memtest-Image: "
+msgstr "메모리 테스트 이미지:"
+
+#: src/View/Gtk/Element/PartitionChooser.hpp:53
+msgid "current"
+msgstr "현재"
+
+#: src/View/Gtk/EntryEditor.hpp:58 src/View/Gtk/EnvEditor.hpp:53
+msgid "_Type:"
+msgstr "종류(_T):"
+
+#: src/View/Gtk/EntryEditor.hpp:59
+msgid "Boot sequence"
+msgstr "부팅 순서"
+
+#: src/View/Gtk/EntryEditor.hpp:60
+msgid "_Name:"
+msgstr "이름(_N):"
+
+#: src/View/Gtk/EntryEditor.hpp:61
+msgid ""
+"Error building boot sequence.\n"
+"Check parameters!"
+msgstr ""
+"부팅 순서를 설정하는 중 오류가 발생했습니다.\n"
+"매개변수를 확인하세요!"
+
+#: src/View/Gtk/EntryEditor.hpp:68
+msgid "Entry editor"
+msgstr "항목 편집기"
+
+#: src/View/Gtk/EntryEditor.hpp:204
+msgid "Choose…"
+msgstr "선택…"
+
+#: src/View/Gtk/EntryEditor.hpp:315 src/View/Gtk/EntryEditor.hpp:323 src/View/Gtk/EntryEditor.hpp:342
+msgid "Other"
+msgstr "기타"
+
+#: src/View/Gtk/EntryEditor.hpp:316 src/View/Gtk/EntryEditor.hpp:325 src/View/Gtk/EntryEditor.hpp:344 src/View/Gtk/Main.hpp:566
+msgid "(script code)"
+msgstr "(스크립트 코드)"
+
+#: src/View/Gtk/EntryEditor.hpp:424
+msgid "Choose file…"
+msgstr "파일 선택…"
+
+#: src/View/Gtk/EntryEditor.hpp:436
+msgid "_Partition"
+msgstr "파티션(_P)"
+
+#: src/View/Gtk/EntryEditor.hpp:438
+msgid "_Initial ramdisk"
+msgstr "초기 램디스크(_I)"
+
+#: src/View/Gtk/EntryEditor.hpp:440
+msgid "_Linux image"
+msgstr "리눅스 이미지(_L)"
+
+#: src/View/Gtk/EntryEditor.hpp:442
+msgid "_Memtest image"
+msgstr "메모리 테스트 이미지(_M)"
+
+#: src/View/Gtk/EntryEditor.hpp:444
+msgid "Path to iso file"
+msgstr "ISO 파일 경로"
+
+#: src/View/Gtk/EntryEditor.hpp:446
+msgid "Kernel params"
+msgstr "커널 매개변수"
+
+#: src/View/Gtk/EntryEditor.hpp:448
+msgid "I_SO image"
+msgstr "ISO 이미지"
+
+#: src/View/Gtk/EntryEditor.hpp:450
+msgid "_Memtest-Image"
+msgstr "메모리 테스트 이미지(_M)"
+
+#: src/View/Gtk/EnvEditor.hpp:52
+msgid "_Partition:"
+msgstr "파티션(_P):"
+
+#: src/View/Gtk/EnvEditor.hpp:54
+msgid "Submountpoints:"
+msgstr "하위 마운트 포인트:"
+
+#: src/View/Gtk/EnvEditor.hpp:55
+msgid "save this configuration"
+msgstr "이 설정을 저장"
+
+#: src/View/Gtk/EnvEditor.hpp:84
+msgid "Grub 2"
+msgstr "Grub 2"
+
+#: src/View/Gtk/EnvEditor.hpp:85
+msgid "BURG"
+msgstr "BURG"
+
+#: src/View/Gtk/EnvEditor.hpp:258
+msgid "Mount failed!"
+msgstr "마운트 실패!"
+
+#: src/View/Gtk/EnvEditor.hpp:259
+msgid "umount failed!"
+msgstr "마운트 해제 실패!"
+
+#: src/View/Gtk/EnvEditor.hpp:260
+msgid "This seems not to be a root file system (no fstab found)"
+msgstr "이 시스템은 루트 파일 시스템이 아닌 것 같습니다 (fstab 파일을 찾을 수 없음)"
+
+#: src/View/Gtk/EnvEditor.hpp:261
+msgid "Couldn't mount the selected partition"
+msgstr "선택한 파티션을 마운트할 수 없습니다"
+
+#: src/View/Gtk/EnvEditor.hpp:262
+msgid "Couldn't umount the selected partition"
+msgstr "선택한 파티션을 마운트 해제할 수 없습니다"
+
+#: src/View/Gtk/Error.hpp:31 src/View/Gtk/Error.hpp:33
+msgid "An error occurred"
+msgstr "오류가 발생했습니다"
+
+#: src/View/Gtk/Error.hpp:32
+msgid "please Inform the author about this problem. The following information could be helpful:"
+msgstr "이 문제에 대해 저자에게 알려주세요. 다음 정보가 도움이 될 수 있습니다:"
+
+#: src/View/Gtk/Error.hpp:36
+msgid "continue (risk data loss)"
+msgstr "계속 (데이터 손실 위험 있음)"
+
+#: src/View/Gtk/Installer.hpp:36
+msgid ""
+"Install the bootloader to MBR and put some\n"
+"files to the bootloaders data directory\n"
+"(if they don't already exist)."
+msgstr ""
+"부트로더를 MBR에 설치하고 몇몇 파일을\n"
+"부트로더 데이터 디렉터리에 넣습니다\n"
+"(이미 존재하지 않는 경우에 한해)."
+
+#: src/View/Gtk/Installer.hpp:37
+msgid "_Device: "
+msgstr "장치(_D): "
+
+#: src/View/Gtk/Installer.hpp:47
+msgid "Install to MBR"
+msgstr "MBR에 설치"
+
+#: src/View/Gtk/Installer.hpp:68
+msgid "The bootloader has been installed successfully"
+msgstr "부트로더가 성공적으로 설치되었습니다"
+
+#: src/View/Gtk/Installer.hpp:72
+msgid "Error while installing the bootloader"
+msgstr "부트로더 설치 중 오류 발생"
+
+#: src/View/Gtk/Installer.hpp:89
+msgid "installing the bootloader…"
+msgstr "부트로더 설치 중…"
+
+#: src/View/Gtk/Installer.hpp:93
+msgid "Please type a device string!"
+msgstr "장치 문자열을 입력하세요!"
+
+#: src/View/Gtk/Main.hpp:99
+msgid "_File"
+msgstr "파일(_F)"
+
+#: src/View/Gtk/Main.hpp:104
+msgid "_Edit"
+msgstr "편집(_E)"
+
+#: src/View/Gtk/Main.hpp:105
+msgid "_View"
+msgstr "보기(_V)"
+
+#: src/View/Gtk/Main.hpp:106
+msgid "_Help"
+msgstr "도움말(_H)"
+
+#: src/View/Gtk/Main.hpp:107
+msgid "_Install to MBR …"
+msgstr "MBR에 설치(_I)…"
+
+#: src/View/Gtk/Main.hpp:129
+msgid "_Show details"
+msgstr "세부 정보 보기(_S)"
+
+#: src/View/Gtk/Main.hpp:130
+msgid "Show _hidden entries"
+msgstr "숨겨진 항목 보기(_h)"
+
+#: src/View/Gtk/Main.hpp:131
+msgid "_Group by Script"
+msgstr "스크립트별 그룹화(_G)"
+
+#: src/View/Gtk/Main.hpp:132
+msgid "Show _Placeholders"
+msgstr "플레이스홀더 보기(_P)"
+
+#: src/View/Gtk/Main.hpp:134
+msgid "BURG found!"
+msgstr "BURG 발견됨!"
+
+#: src/View/Gtk/Main.hpp:135 src/View/Gtk/Main.hpp:136
+msgid "advanced settings"
+msgstr "고급 설정"
+
+#: src/View/Gtk/Main.hpp:139
+msgid "The modifications you've done affects the visible entries. Please reload!"
+msgstr "수정 사항이 보이는 항목에 영향을 미칩니다. 다시 로드하세요!"
+
+#: src/View/Gtk/Main.hpp:140
+msgid "Script updates found. Click save to apply the changes!"
+msgstr "스크립트 업데이트가 발견되었습니다. 변경 사항을 적용하려면 저장을 클릭하세요!"
+
+#: src/View/Gtk/Main.hpp:152
+msgid "_List configuration"
+msgstr "설정 목록(_L)"
+
+#: src/View/Gtk/Main.hpp:187
+msgid "Remove selected entries (you can restore them from trash)"
+msgstr "선택한 항목 제거 (휴지통에서 복원 가능)"
+
+#: src/View/Gtk/Main.hpp:197
+msgid "Move up the selected entry or script"
+msgstr "선택한 항목이나 스크립트를 위로 이동"
+
+#: src/View/Gtk/Main.hpp:199
+msgid "Move down the selected entry or script"
+msgstr "선택한 항목이나 스크립트를 아래로 이동"
+
+#: src/View/Gtk/Main.hpp:205
+msgid "remove this entry from the current submenu"
+msgstr "현재 하위 메뉴에서 이 항목 제거"
+
+#: src/View/Gtk/Main.hpp:208
+msgid "add this entry to a new submenu"
+msgstr "이 항목을 새로운 하위 메뉴에 추가"
+
+#: src/View/Gtk/Main.hpp:231
+msgid "Reverts the list to the default order"
+msgstr "목록을 기본 순서로 되돌립니다"
+
+#: src/View/Gtk/Main.hpp:233
+msgid "reloads the configuration. Unsaved changes will be preserved."
+msgstr "설정을 다시 로드합니다. 저장되지 않은 변경 사항은 유지됩니다."
+
+#: src/View/Gtk/Main.hpp:277
+msgid "Rename"
+msgstr "이름 변경"
+
+#: src/View/Gtk/Main.hpp:278 src/View/Gtk/Main.hpp:279
+msgid "Move up"
+msgstr "위로 이동"
+
+#: src/View/Gtk/Main.hpp:280 src/View/Gtk/Main.hpp:281
+msgid "Move down"
+msgstr "아래로 이동"
+
+#: src/View/Gtk/Main.hpp:282 src/View/Gtk/Main.hpp:283
+msgid "Remove from submenu"
+msgstr "하위 메뉴에서 제거"
+
+#: src/View/Gtk/Main.hpp:284 src/View/Gtk/Main.hpp:285
+msgid "Create submenu"
+msgstr "하위 메뉴 생성"
+
+#: src/View/Gtk/Main.hpp:300
+msgid "_Change Environment …"
+msgstr "환경 설정(_G)…"
+
+#: src/View/Gtk/Main.hpp:307
+msgid "Do you want to configure BURG instead of grub2?"
+msgstr "grub2 대신 BURG를 설정하시겠습니까?"
+
+#: src/View/Gtk/Main.hpp:374
+msgid "_General settings"
+msgstr "일반 설정(_G)"
+
+#: src/View/Gtk/Main.hpp:381
+msgid "_Appearance settings"
+msgstr "스타일 설정(_A)"
+
+#: src/View/Gtk/Main.hpp:434
+msgid "BURG Mode"
+msgstr "BURG 모드"
+
+#: src/View/Gtk/Main.hpp:438
+msgid "Save configuration and generate a new %1"
+msgstr "설정을 저장하고 새로운 %1 생성"
+
+#: src/View/Gtk/Main.hpp:535
+msgid "loading configuration…"
+msgstr "설정을 불러오는 중…"
+
+#: src/View/Gtk/Main.hpp:537
+msgid "loading script %2/%3 (%1)"
+msgstr "스크립트 %2/%3 (%1)을 불러오는 중…"
+
+#: src/View/Gtk/Main.hpp:550
+msgid "Proxy binary not found!"
+msgstr "프록시 바이너리를 찾을 수 없습니다!"
+
+#: src/View/Gtk/Main.hpp:551
+msgid "You will see all entries (uncustomized) when you run grub. This error accurs (in most cases), when you didn't install grub gustomizer currectly."
+msgstr "grub을 실행하면 모든 항목(사용자 지정되지 않은)이 표시됩니다. 이 오류는 대부분의 경우 grub 커스터마이저가 올바르게 설치되지 않았을 때 발생합니다."
+
+#: src/View/Gtk/Main.hpp:558
+msgid "(incoming Entries of %1)"
+msgstr "(%1의 새 항목)"
+
+#: src/View/Gtk/Main.hpp:560
+msgid "(incoming Entries)"
+msgstr "(새 항목)"
+
+#: src/View/Gtk/Main.hpp:579
+msgid "The saved configuration is not up to date!"
+msgstr "저장된 설정이 최신이 아닙니다!"
+
+#: src/View/Gtk/Main.hpp:580
+msgid "The generated configuration didn't equal to the saved configuration on startup. So what you see now may not be what you see when you restart your pc. To fix this, click update!"
+msgstr "생성된 설정이 시작 시 저장된 설정과 같지 않습니다. 따라서 지금 보는 것이 PC를 다시 시작할 때 보이는 것과 다를 수 있습니다. 이를 수정하려면 업데이트를 클릭하세요!"
+
+#: src/View/Gtk/Main.hpp:583
+msgid "_Quit without update"
+msgstr "업데이트 없이 종료(_Q)"
+
+#: src/View/Gtk/Main.hpp:586
+msgid "_Update & Quit"
+msgstr "업데이트 & 종료(_U)"
+
+#: src/View/Gtk/Main.hpp:590
+msgid "Do you want to save your modifications?"
+msgstr "변경 사항을 저장하시겠습니까?"
+
+#: src/View/Gtk/Main.hpp:593
+msgid "_Quit without saving"
+msgstr "저장하지 않고 종료(_Q)"
+
+#: src/View/Gtk/Main.hpp:596
+msgid "_Save & Quit"
+msgstr "저장 & 종료(_S)"
+
+#: src/View/Gtk/Main.hpp:599
+msgid "AND: your modifications are still unsaved, update will save them too!"
+msgstr "또한: 변경 사항이 아직 저장되지 않았습니다. 업데이트 시 저장됩니다!"
+
+#: src/View/Gtk/Main.hpp:620
+msgid "Failed saving grub configuration!"
+msgstr "grub 설정 저장 실패!"
+
+#: src/View/Gtk/Main.hpp:621
+msgid "The grub configuration cannot be saved"
+msgstr "grub 설정을 저장할 수 없습니다"
+
+#: src/View/Gtk/Main.hpp:622
+msgid "Please take a look at the command line output below. If you think this is a bug of Grub Customizer, please create one at %1! Generally Grub Customizer should prevent errors like this."
+msgstr "아래 명령줄 출력을 확인하세요. 이것이 Grub 커스터마이저의 버그라고 생각되면 %1에 보고하세요! 일반적으로 Grub 커스터마이저는 이러한 오류를 방지해야 합니다."
+
+#: src/View/Gtk/Main.hpp:628
+msgid ""
+"%1 couldn't be executed successfully. error message:\n"
+" %2"
+msgstr ""
+"%1을(를) 성공적으로 실행할 수 없습니다. 오류 메시지:\n"
+" %2"
+
+#: src/View/Gtk/Main.hpp:630
+msgid "Environment settings"
+msgstr "환경 설정"
+
+#: src/View/Gtk/Main.hpp:644
+msgid "Do you want to proceed without saving the current configuration?"
+msgstr "현재 설정을 저장하지 않고 계속하시겠습니까?"
+
+#: src/View/Gtk/Main.hpp:645
+msgid "There are unsaved modifications!"
+msgstr "저장되지 않은 변경 사항이 있습니다!"
+
+#: src/View/Gtk/Main.hpp:697
+msgid "Removing Script Code can cause problems when trying to boot entries relying on it. Are you sure you want to do it anyway?"
+msgstr "스크립트 코드를 제거하면 이를 의존하는 항목을 부팅하는 데 문제가 발생할 수 있습니다. 그래도 제거하시겠습니까?"
+
+#: src/View/Gtk/Main.hpp:707
+msgid ""
+"You're trying to remove an entry of the currently running system. Make sure there are other working entries of this system!\n"
+"If you just want to remove old kernels: The better way is uninstalling them instead of just hiding them in boot menu."
+msgstr ""
+"현재 실행 중인 시스템의 항목을 제거하려고 합니다. 이 시스템의 다른 작동 항목이 있는지 확인하세요!\n"
+"오래된 커널을 제거하고 싶다면 부트 메뉴에서 숨기는 대신 삭제하는 것이 더 좋습니다."
+
+#: src/View/Gtk/Main.hpp:887
+msgid "An menuentry which is visible at the grub menu and boots an operating system when activated."
+msgstr "grub 메뉴에 보이고 활성화되면 운영 체제를 부팅하는 메뉴 항목입니다."
+
+#: src/View/Gtk/Main.hpp:889
+msgid "A group of other operating systems. Grub shows it as a normal menuentry however when clicking it, it loads another menu which allows you to choose one the the containing menuentries."
+msgstr "다른 운영 체제의 그룹입니다. grub은 이를 일반 메뉴 항목으로 표시하지만 클릭하면 다른 메뉴가 로드되어 포함된 메뉴 항목 중 하나를 선택할 수 있습니다."
+
+#: src/View/Gtk/Main.hpp:892
+msgid ""
+"There are two types of this special entry: Incoming entries are the place where Grub Customizer places new operating systems which are found by grub but still not configured using Grub Customizer. The Script code is code generated by "
+"grub which doesn't look like an menuentry. In most cases it's used to configure grub. You should only touch it when knowing what it does. Placeholders are hidden by default."
+msgstr ""
+"이 특별 항목에는 두 가지 유형이 있습니다: '새 항목'은 grub이 발견했지만 Grub 커스터마이저를 사용하여 아직 구성되지 않은 새 운영 체제를 Grub 커스터마이저가 배치하는 장소입니다. '스크립트 코드'는 메뉴 항목처럼 보이지 않는 grub에 의해 생"
+"성된 코드입니다. 대부분의 경우 grub을 구성하는 데 사용됩니다. 이를 어떻게 사용하는지 아는 경우에만 수정해야 합니다. 플레이스홀더는 기본적으로 숨겨져 있습니다."
+
+#: src/View/Gtk/Main.hpp:898
+msgid "Scripts are generating menuentries. So every menuentry belongs to a script. They are shown as top level groups when activated. However in contrast to submenus they aren't shown at the boot menu."
+msgstr "스크립트는 메뉴 항목을 생성합니다. 따라서 모든 메뉴 항목은 스크립트에 속합니다. 이들은 활성화될 때 최상위 그룹으로 표시됩니다. 그러나 하위 메뉴와 달리 부트 메뉴에는 표시되지 않습니다."
+
+#: src/View/Gtk/Main.hpp:905
+msgid "About the entry types"
+msgstr "항목 유형에 대하여"
+
+#: src/View/Gtk/Main.hpp:957
+msgid "Are you sure?"
+msgstr "확실합니까?"
+
+#: src/View/Gtk/Main.hpp:958
+msgid "This removes all your list modifications of the bootloader menu!"
+msgstr "부트로더 메뉴의 모든 목록 수정을 제거합니다!"
+
+#: src/View/Gtk/Settings.hpp:113
+msgid "pre_defined: "
+msgstr "미리 정의됨: "
+
+#: src/View/Gtk/Settings.hpp:114
+msgid "previously _booted entry"
+msgstr "이전에 부팅된 항목(_b)"
+
+#: src/View/Gtk/Settings.hpp:115
+msgid "default entry"
+msgstr "기본 항목"
+
+#: src/View/Gtk/Settings.hpp:116
+msgid "visibility"
+msgstr "가시성"
+
+#: src/View/Gtk/Settings.hpp:117
+msgid "show menu"
+msgstr "메뉴 보기"
+
+#: src/View/Gtk/Settings.hpp:118
+msgid "kernel parameters"
+msgstr "커널 매개변수"
+
+#: src/View/Gtk/Settings.hpp:119
+msgid "generate recovery entries"
+msgstr "복구 항목 생성"
+
+#: src/View/Gtk/Settings.hpp:120
+msgid "look for other operating systems"
+msgstr "다른 운영 체제 찾기"
+
+#: src/View/Gtk/Settings.hpp:121
+msgid "custom resolution: "
+msgstr "사용자 정의 해상도: "
+
+#: src/View/Gtk/Settings.hpp:125
+msgid "settings"
+msgstr "설정"
+
+#: src/View/Gtk/Settings.hpp:129
+msgid "_General"
+msgstr "일반(_G)"
+
+#: src/View/Gtk/Settings.hpp:130
+msgid "A_ppearance"
+msgstr "스타일(_A)"
+
+#: src/View/Gtk/Settings.hpp:131
+msgid "_Advanced"
+msgstr "고급(_A)"
+
+#: src/View/Gtk/Settings.hpp:144
+msgid "is active"
+msgstr "활성화됨"
+
+#: src/View/Gtk/Settings.hpp:145
+msgid "name"
+msgstr "이름"
+
+#: src/View/Gtk/Settings.hpp:146
+msgid "value"
+msgstr "값"
+
+#: src/View/Gtk/Settings.hpp:204
+msgid "Boot default entry after %1 Seconds"
+msgstr "%1초 후 기본 항목 부팅"
+
+#: src/View/Gtk/Settings.hpp:297
+msgid "(first entry)"
+msgstr "(첫 번째 항목)"
+
+#: src/View/Gtk/Settings.hpp:299
+msgid "(other…)"
+msgstr "(기타…)"
+
+#: src/View/Gtk/Settings.hpp:459
+msgid "This option doesn't work when the \"os-prober\" script finds other operating systems. Disable \"%1\" if you don't need to boot other operating systems."
+msgstr "이 옵션은 \"os-prober\" 스크립트가 다른 운영 체제를 찾았을 때 작동하지 않습니다. 다른 운영 체제를 부팅할 필요가 없으면 \"%1\"을 비활성화하세요."
+
+#: src/View/Gtk/Settings.hpp:666
+msgid ""
+"This option allows choosing the operating system which should be selected when booting. By default this always is the first one. This option means that the default entry selection stays the same when placing other operating systems "
+"there.\n"
+"\n"
+"In contrast to the first option the other choices are referenced by name. So the default system isn't changed when moving to another position.\n"
+"\n"
+"If you want to use another reference like \"always point to the second entry\" you can use the last option which allows typing a custom reference. Usage examples:\n"
+" 1 = \"always point to the second entry\" (counting starts by 0)\n"
+" test>0 = \"always point to the first entry of a submenu named test\""
+msgstr ""
+"이 옵션을 사용하면 부팅할 때 선택할 운영 체제를 선택할 수 있습니다. 기본적으로 항상 첫 번째 항목이 선택됩니다. 이 옵션은 다른 운영 체제를 추가해도 기본 항목 선택이 변경되지 않음을 의미합니다.\n"
+"\n"
+"첫 번째 옵션과 달리 다른 선택은 이름으로 참조됩니다. 따라서 위치를 변경해도 기본 시스템은 변경되지 않습니다.\n"
+"\n"
+"\"항상 두 번째 항목을 가리킴\"과 같은 다른 참조를 사용하려면 사용자 정의 참조를 입력할 수 있는 마지막 옵션을 사용할 수 있습니다. 사용 예:\n"
+" 1 = \"항상 두 번째 항목을 가리킴\" (카운팅은 0부터 시작)\n"
+" test>0 = \"test라는 이름의 하위 메뉴의 첫 번째 항목을 가리킴\""
+
+#: src/View/Gtk/Theme.hpp:114
+msgid "white"
+msgstr "흰색"
+
+#: src/View/Gtk/Theme.hpp:115
+msgid "yellow"
+msgstr "노란색"
+
+#: src/View/Gtk/Theme.hpp:116
+msgid "light-cyan"
+msgstr "밝은 청록색"
+
+#: src/View/Gtk/Theme.hpp:117
+msgid "cyan"
+msgstr "청록색"
+
+#: src/View/Gtk/Theme.hpp:118
+msgid "light-blue"
+msgstr "밝은 파란색"
+
+#: src/View/Gtk/Theme.hpp:119
+msgid "blue"
+msgstr "파란색"
+
+#: src/View/Gtk/Theme.hpp:120
+msgid "light-green"
+msgstr "밝은 초록색"
+
+#: src/View/Gtk/Theme.hpp:121
+msgid "green"
+msgstr "초록색"
+
+#: src/View/Gtk/Theme.hpp:122
+msgid "light-magenta"
+msgstr "밝은 자주색"
+
+#: src/View/Gtk/Theme.hpp:123
+msgid "magenta"
+msgstr "자주색"
+
+#: src/View/Gtk/Theme.hpp:124
+msgid "light-red"
+msgstr "밝은 빨간색"
+
+#: src/View/Gtk/Theme.hpp:125
+msgid "red"
+msgstr "빨간색"
+
+#: src/View/Gtk/Theme.hpp:126
+msgid "brown"
+msgstr "갈색"
+
+#: src/View/Gtk/Theme.hpp:127
+msgid "light-gray"
+msgstr "밝은 회색"
+
+#: src/View/Gtk/Theme.hpp:128
+msgid "dark-gray"
+msgstr "진한 회색"
+
+#: src/View/Gtk/Theme.hpp:129
+msgid "transparent"
+msgstr "투명"
+
+#: src/View/Gtk/Theme.hpp:129
+msgid "black"
+msgstr "검은색"
+
+#: src/View/Gtk/Theme.hpp:210
+msgid "_Load file: "
+msgstr "파일 불러오기(_L): "
+
+#: src/View/Gtk/Theme.hpp:213
+msgid "_Theme:"
+msgstr "테마(_T):"
+
+#: src/View/Gtk/Theme.hpp:214
+msgid "background image"
+msgstr "배경 이미지"
+
+#: src/View/Gtk/Theme.hpp:218
+msgid "Please choose a background image!"
+msgstr "배경 이미지를 선택하세요!"
+
+#: src/View/Gtk/Theme.hpp:221
+msgid "_Font"
+msgstr "글꼴(_F)"
+
+#: src/View/Gtk/Theme.hpp:224
+msgid "choose theme file"
+msgstr "테마 파일 선택"
+
+#: src/View/Gtk/Theme.hpp:225
+msgid "Theme contents"
+msgstr "테마 내용"
+
+#: src/View/Gtk/Theme.hpp:226
+msgid "Custom Theme settings"
+msgstr "사용자 정의 테마 설정"
+
+#: src/View/Gtk/Theme.hpp:227
+msgid "Normal: Font"
+msgstr "일반: 글꼴"
+
+#: src/View/Gtk/Theme.hpp:228
+msgid "Normal: Background"
+msgstr "일반: 배경"
+
+#: src/View/Gtk/Theme.hpp:229
+msgid "Highlighted: Font"
+msgstr "강조된: 글꼴"
+
+#: src/View/Gtk/Theme.hpp:230
+msgid "Highlighted: Background"
+msgstr "강조된: 배경"
+
+#: src/View/Gtk/Theme.hpp:301
+msgid "File"
+msgstr "파일"
+
+#: src/View/Gtk/Theme.hpp:312
+msgid "add theme"
+msgstr "테마 추가"
+
+#: src/View/Gtk/Theme.hpp:313
+msgid "delete this theme"
+msgstr "이 테마 삭제"
+
+#: src/View/Gtk/Theme.hpp:325
+msgid "Archive files"
+msgstr "압축 파일"
+
+#: src/View/Gtk/Theme.hpp:330
+msgid "All files"
+msgstr "모든 파일"
+
+#: src/View/Gtk/Theme.hpp:374
+msgid "remove font"
+msgstr "글꼴 제거"
+
+#: src/View/Gtk/Theme.hpp:393
+msgid "remove background"
+msgstr "배경 제거"
+
+#: src/View/Gtk/Theme.hpp:501
+msgid "(Custom Settings)"
+msgstr "(사용자 설정)"
+
+#: src/View/Gtk/Theme.hpp:554
+msgid "The chosen file cannot be loaded as theme"
+msgstr "선택한 파일을 테마로 불러올 수 없습니다"
+
+#: src/View/Gtk/Theme.hpp:557
+msgid "The given filename cannot be used"
+msgstr "제공된 파일 이름을 사용할 수 없습니다"
+
+#: src/View/Gtk/Theme.hpp:560
+msgid "This theme doesn't contain a %1. Please look for the config file and rename it to \"%1\"!"
+msgstr "이 테마에는 %1이 포함되어 있지 않습니다. 구성 파일을 찾아 \"%1\"로 이름을 바꾸세요!"
+
+#: src/View/Gtk/Theme.hpp:563
+msgid "Saving of themes didn't succeed completely!"
+msgstr "테마 저장이 완전히 성공하지 못했습니다!"
+
+#: src/View/Gtk/Theme.hpp:566
+msgid "File replacement failed. Please select a theme file first!"
+msgstr "파일 교체 실패. 먼저 테마 파일을 선택하세요!"
+
+#: src/View/Gtk/Theme.hpp:587
+msgid "filename"
+msgstr "파일 이름"
+
+#: src/View/Gtk/Theme.hpp:624
+msgid ""
+"please note: large fonts on low boot screen resolutions can corrupt the boot screen\n"
+"Because this problem depends on chosen font, it isn't possible to define a general maximum. When you're trying to select a larger font, please do it in small steps (rebooting and checking the results).\n"
+"The problem occurs when the grub gui elements (borders, description) won't fit into screen. So while there's enough vertical space you can try a larger font. The mass of menuentries is not a problem - they are scrolled if required.\n"
+"\n"
+"The corruption results in a endless loading time of grub2. You need a live cd to fix this:\n"
+" * delete the font from (MOUNT)/boot/grub/unicode.pf2\n"
+" * reboot your system (menu should show up with default fonts)\n"
+" * open /etc/default/grub with root permissions and place a '#' in front of the line containing GRUB_FONT\n"
+" * then run grub customizer to choose the font used before"
+msgstr ""
+"주의: 낮은 부팅 화면 해상도에서 큰 글꼴을 사용하면 부팅 화면이 손상될 수 있습니다\n"
+"이 문제는 선택한 글꼴에 따라 다르기 때문에 일반적인 최대치를 정의할 수 없습니다. 더 큰 글꼴을 선택하려면 작은 단계로 하세요 (재부팅하고 결과를 확인하세요).\n"
+"grub GUI 요소(테두리, 설명)가 화면에 맞지 않을 때 문제가 발생합니다. 충분한 수직 공간이 있는 경우 더 큰 글꼴을 시도할 수 있습니다. 메뉴 항목이 많아도 문제가 되지 않습니다. 필요한 경우 스크롤됩니다.\n"
+"\n"
+"손상되면 grub2가 끝없이 로딩됩니다. 이를 수정하려면 라이브 CD가 필요합니다:\n"
+" * (MOUNT)/boot/grub/unicode.pf2에서 글꼴 삭제\n"
+" * 시스템 재부팅 (기본 글꼴로 메뉴가 표시되어야 함)\n"
+" * 루트 권한으로 /etc/default/grub을 열고 GRUB_FONT가 포함된 줄 앞에 '#'을 추가\n"
+" * 그런 다음 grub 커스터마이저를 실행하여 이전에 사용한 글꼴을 선택"
+
+#: src/View/Gtk/Theme.hpp:636
+msgid "Grub fonts can be harmful (Info)"
+msgstr "Grub 글꼴은 해로울 수 있습니다(정보)"
+
+#: src/View/Gtk/Theme.hpp:857
+msgid "Are you sure you want to remove this theme"
+msgstr "이 테마를 제거하시겠습니까?"
+
+#: src/View/Gtk/Theme.hpp:931
+msgid ""
+"Alternatively to the simple theme method which provides some options like color, wallpaper and font you can install complex theme packages to get an even better looking boot menu.\n"
+"\n"
+"There are several download sources like this thread at ubuntuforums.org:\n"
+"<a href='%1'>%1</a> (needs account)\n"
+"or search for '%2' at <a href='%3'>%3</a>\n"
+"\n"
+"Just download such a package (which is in tar.gz format in most cases) and add it to the list of available themes by using the add button next to the theme chooser.\n"
+"\n"
+"After changing the theme you'll see a simple editor which gives a preview of images and allows some file management. Modified theme contents will be saved when you're pressing the save button."
+msgstr ""
+"색상, 배경화면 및 글꼴과 같은 몇 가지 옵션을 제공하는 간단한 테마 방법 대신에 복잡한 테마 패키지를 설치하여 더 멋진 부팅 메뉴를 얻을 수 있습니다.\n"
+"\n"
+"여기에는 ubuntuforums.org에 있는 이 스레드와 같은 여러 다운로드 소스가 있습니다:\n"
+"<a href='%1'>%1</a> (계정 필요)\n"
+"또는 <a href='%3'>%3</a>에서 '%2'를 검색하세요\n"
+"\n"
+"이러한 패키지를 다운로드한 후 (대부분의 경우 tar.gz 형식) 테마 선택기 옆에 있는 추가 버튼을 사용하여 사용 가능한 테마 목록에 추가하세요.\n"
+"\n"
+"테마를 변경한 후에는 이미지 미리보기를 제공하고 일부 파일 관리를 허용하는 간단한 편집기가 표시됩니다. 수정된 테마 내용은 저장 버튼을 누르면 저장됩니다."
+
+#: src/View/Gtk/Trash.hpp:55
+msgid "Add entry from trash"
+msgstr "휴지통에서 항목 추가"
+
+#: src/View/Gtk/Trash.hpp:59
+msgid "Removed items"
+msgstr "제거된 항목"
+
+#: src/View/Gtk/Trash.hpp:69
+msgid "_Restore"
+msgstr "복원(_R)"
+
+#: src/View/Gtk/Trash.hpp:71
+msgid "Restore selected entries"
+msgstr "선택한 항목 복원"
+
+#: src/View/Gtk/Trash.hpp:76
+msgid "permanently delete selected entries"
+msgstr "선택한 항목 영구 삭제"
+
+#: src/View/Gtk/Trash.hpp:84
+msgid "delete entries permanently - this action is available on custom entries only"
+msgstr "항목을 영구적으로 삭제 - 이 작업은 사용자 정의 항목에만 유효합니다"
+
+#: src/View/Gtk/Trash.hpp:159
+msgid "This deletes the following entries:"
+msgstr "다음 항목을 삭제합니다:"
+
+#: src/main/client.cpp:98
+msgid "Linux"
+msgstr "리눅스"
+
+#: src/main/client.cpp:99
+msgid "Linux-ISO"
+msgstr "리눅스-ISO"
+
+#: src/main/client.cpp:100
+msgid "Chainloader"
+msgstr "체인로더"
+
+#: src/main/client.cpp:101
+msgid "Memtest"
+msgstr "메모리 테스트"

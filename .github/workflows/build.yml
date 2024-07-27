@@ -1,0 +1,31 @@
+name: Build
+
+on:
+  push:
+    branches: [ "master", "development" ]
+  pull_request:
+    branches:
+      - master
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        dockerfile: [arch.Dockerfile, fedora.latest.Dockerfile, opensuse.Dockerfile, ubuntu.2204.Dockerfile, ubuntu.2404.Dockerfile]
+
+    steps:
+    
+      - name: Checkout source code
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+          
+      - name: Build docker test image
+        run: docker build . --file .docker/${{ matrix.dockerfile }}
