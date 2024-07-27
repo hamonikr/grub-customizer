@@ -24,9 +24,6 @@ RUN yes | mk-build-deps --install --root-cmd sudo --remove /src/debian/control
 
 # Build the entire project
 RUN cd /src \
- && autoreconf --force --install --verbose \
- && ./configure --prefix=/usr/local \
- && make -j $(nproc) \
- && make install
+ && debuild -us -uc -b
 
 ENTRYPOINT ["bash"]
