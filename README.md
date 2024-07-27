@@ -3,7 +3,7 @@
 ![debian](https://img.shields.io/badge/debian->=11-brown)
 ![hamonikr](https://img.shields.io/badge/hamonikr->=7-purple)
 
-[![Build Status](https://github.com/hamonikr/nimf/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/hamonikr/nimf/actions/workflows/build.yml)
+[![Build Status](https://github.com/hamonikr/grub-customizer/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/hamonikr/grub-customizer/actions/workflows/build.yml)
 
 ## Grub Customizer
 
