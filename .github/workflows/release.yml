@@ -77,8 +77,8 @@ jobs:
 
       - name: Generate Changelog
         run: |
-          apt-get update && apt-get install -y ruby-full
-          gem install github_changelog_generator
+          sudo apt-get update && sudo apt-get install -y ruby-full
+          sudo gem install github_changelog_generator
           github_changelog_generator -u ${{ github.repository_owner }} -p ${{ github.event.repository.name }} --token ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create GitHub Release
