@@ -75,9 +75,16 @@ jobs:
 
       - run: ls -R .
 
+      - name: Generate Changelog
+        run: |
+          apt-get update && apt-get install -y ruby-full
+          gem install github_changelog_generator
+          github_changelog_generator -u ${{ github.repository_owner }} -p ${{ github.event.repository.name }} --token ${{ secrets.GITHUB_TOKEN }}
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
           files: ./*.deb
+          body_path: CHANGELOG.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
