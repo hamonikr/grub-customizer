@@ -39,8 +39,11 @@ if [ "$1" == "release" ]; then
     git log --pretty=format:"- %ad %an: %s ([%h](https://github.com/$GITHUB_USER/$GITHUB_REPO/commit/%H))" --date=short $previous_tag..$latest_tag --no-merges
     echo ""
   else
-    echo "이전 태그를 찾을 수 없습니다."
-    exit 1
+    # 이전 태그가 없을 경우 전체 로그 추출
+    echo "## [$latest_tag](https://github.com/$GITHUB_USER/$GITHUB_REPO/releases/tag/$latest_tag)"
+    echo ""
+    git log --pretty=format:"- %ad %an: %s ([%h](https://github.com/$GITHUB_USER/$GITHUB_REPO/commit/%H))" --date=short $latest_tag --no-merges
+    echo ""
   fi
 else
   # 전체 로그 추출
