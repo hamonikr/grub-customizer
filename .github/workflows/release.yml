@@ -86,10 +86,16 @@ jobs:
             exit 1
           fi
 
+      - name: Debug generate_changelog.sh
+        run: |
+          chmod +x ./generate_changelog.sh
+          ls -l ./generate_changelog.sh
+          cat generate_changelog.sh
+
       - name: Generate Changelog
         id: changelog
         run: |
-          chmod +x generate_changelog.sh
+          chmod +x ./generate_changelog.sh
           ./generate_changelog.sh release > changelog.txt
 
       - name: Create GitHub Release

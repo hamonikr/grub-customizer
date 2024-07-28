@@ -4,6 +4,8 @@
 ![hamonikr](https://img.shields.io/badge/hamonikr->=7-purple)
 
 [![Build Status](https://github.com/hamonikr/grub-customizer/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/hamonikr/grub-customizer/actions/workflows/build.yml)
+[![Release Status](https://github.com/hamonikr/grub-customizer/workflows/Release/badge.svg)](https://github.com/hamonikr/grub-customizer/actions/workflows/release.yml)
+
 
 ## Grub Customizer
 
