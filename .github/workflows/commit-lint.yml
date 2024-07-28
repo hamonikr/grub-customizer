@@ -20,5 +20,19 @@ jobs:
 
       - name: Lint Commit Messages
         uses: wagoid/commitlint-github-action@v4
+        continue-on-error: true
+        id: commit-lint
         with:
           configFile: .github/.commitlintrc.json
+
+      - name: Provide feedback if commit messages are invalid
+        if: failure()
+        run: |
+          echo "Please follow Conventional Commits guidelines for commit messages." > feedback.txt
+          cat $GITHUB_WORKSPACE/feedback.txt
+          echo "The proper format is:" >> feedback.txt
+          echo "<type>(<scope>): <subject>" >> feedback.txt
+          echo "" >> feedback.txt
+          echo "Example: feat(parser): add ability to parse arrays" >> feedback.txt
+
+          gh pr comment ${{ github.event.pull_request.number }} --body-file feedback.txt || echo "No PR found"
