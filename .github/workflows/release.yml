@@ -2,6 +2,7 @@ name: Release
 
 on:
   push:
+    branches: [ "master", "development" ]    
     tags:
       - "v*"
 
@@ -77,6 +78,13 @@ jobs:
 
       - name: Checkout source code
         uses: actions/checkout@v3
+
+      - name: Check if generate_changelog.sh exists
+        run: |
+          if [ ! -f ./generate_changelog.sh ]; then
+            echo "generate_changelog.sh not found!"
+            exit 1
+          fi
 
       - name: Generate Changelog
         id: changelog
