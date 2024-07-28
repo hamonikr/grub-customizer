@@ -75,19 +75,19 @@ jobs:
 
       - run: ls -R .
 
-      - name: Checkout source code
-        uses: actions/checkout@v3
+      # - name: Checkout source code
+      #   uses: actions/checkout@v3
 
-      - name: conventional Changelog Action
-        id: changelog
-        uses: TriPSs/conventional-changelog-action@v3.7.1
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+      # - name: conventional Changelog Action
+      #   id: changelog
+      #   uses: TriPSs/conventional-changelog-action@v3.7.1
+      #   with:
+      #     github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
           files: ./*.deb
-          body: ${{ steps.changelog.outputs.clean_changelog }}
+          # body: ${{ steps.changelog.outputs.clean_changelog }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
