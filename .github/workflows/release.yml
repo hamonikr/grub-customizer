@@ -75,6 +75,9 @@ jobs:
 
       - run: ls -R .
 
+      - name: Checkout source code
+        uses: actions/checkout@v3
+
       - name: Generate Changelog
         id: changelog
         run: |
