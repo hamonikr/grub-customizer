@@ -78,29 +78,16 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v3
 
-      - name: Check if generate_changelog.sh exists
-        run: |
-          if [ ! -f ./generate_changelog.sh ]; then
-            echo "generate_changelog.sh not found!"
-            exit 1
-          fi
-
-      - name: Debug generate_changelog.sh
-        run: |
-          chmod +x ./generate_changelog.sh
-          ls -l ./generate_changelog.sh
-          cat generate_changelog.sh
-
-      - name: Generate Changelog
+      - name: conventional Changelog Action
         id: changelog
-        run: |
-          chmod +x ./generate_changelog.sh
-          ./generate_changelog.sh release > changelog.txt
+        uses: TriPSs/conventional-changelog-action@v3.7.1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
           files: ./*.deb
-          body: ${{ steps.changelog.outputs.changelog }}
+          body: ${{ steps.changelog.outputs.clean_changelog }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
